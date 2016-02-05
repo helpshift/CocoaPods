@@ -10,8 +10,12 @@ Example :
 
 ```
 source 'https://github.com/helpshift/CocoaPods.git'
-pod 'Helpshift', '~> 5.0.0'
+pod 'Helpshift', '5.3.1'            // For normal version
+pod 'Helpshift', '5.3.1-bitcode'    // For bitcode enabled version
 ```
+NOTE : Do not prefix the version number with the ~> (Optimistic operatory).
+
+
 ## License
 
 Helpshift Cocoapods are distributed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
